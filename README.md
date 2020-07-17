@@ -44,3 +44,19 @@ while true do
 
 end
 ```
+
+# Community
+Want to be part of the Community? Look Here!
+
+## Discord
+Join the Official Discord Server of ConsoleGL: [TopTecholgies](https://discord.gg/7JkcmvS)
+
+## Contributors
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/OkiStuff"><img src="https://avatars2.githubusercontent.com/u/40648091?v=4" width="100px;" alt=""/><br /><sub><b>OkiStuff </b></sub></td>
+
+  </tr>
+
+</table>
