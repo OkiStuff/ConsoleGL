@@ -1,3 +1,4 @@
+
 system "title RubyGL Demo"
 system "@echo off"
 system "cls"

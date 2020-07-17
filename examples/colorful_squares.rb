@@ -1,5 +1,8 @@
 require 'ConsoleGL'
 
+
+Console.SetTitle("ConsoleGL Demo - Colorful Squares")
+
 counter = 0
 currentColor = Color.WHITE
 

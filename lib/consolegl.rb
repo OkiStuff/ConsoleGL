@@ -56,7 +56,6 @@ class Color
 
 end
 
-
 class Console
     ## COLOR ##
 
@@ -148,11 +147,13 @@ class Console
 
 
 
-    def SetConsoleColor(value)
+    def self.SetConsoleColor(value)
         system "COLOR " + value.to_s
     end
 
-    def ResetConsoleColor()
+    def self.ResetConsoleColor()
         system "COLOR 07"
     end
+
+
 end
