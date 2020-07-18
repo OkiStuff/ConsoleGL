@@ -45,6 +45,10 @@ while true do
 end
 ```
 
+# Change Log
+## Version 1.1.0
+Added Input Class
+
 # Community
 Want to be part of the Community? Look Here!
 
