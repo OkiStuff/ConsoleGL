@@ -50,9 +50,8 @@ class Color
     end
 
     def self.WHITE
-        return false
+        return 0
     end
-
 
 end
 
@@ -63,7 +62,6 @@ class Console
 
         if x != false
             "\e[#{x}m#{s.to_s}\e[0m"
-        end
     end
     
     
