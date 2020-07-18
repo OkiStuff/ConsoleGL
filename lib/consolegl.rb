@@ -26,7 +26,7 @@
 require 'io/console'
 
 class Input
-    def KeyPressed(key)
+    def self.KeyPressed(key)
         ch = STDIN.getch
         if ch.to_s == key
             return true

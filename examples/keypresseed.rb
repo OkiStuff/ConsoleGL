@@ -1,17 +1,10 @@
-require 'io/console'
+require 'ConsoleGL'
 
-# ripped from consolegl
-def KeyPressed(key)
-    ch = STDIN.getch
-    if ch.to_s == key
-        return true
-    else
-        return false
-    end
-end
-
+# loop
 while true do
-    if KeyPressed("g") or KeyPressed("G")
-        puts "G PRESSED"
+    if Input.KeyPressed("a")
+        puts "CORRECT KEY PRESSED"
+    else
+        puts "INCORRECT KEY PRESSED"
     end
 end
