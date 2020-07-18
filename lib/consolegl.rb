@@ -62,6 +62,7 @@ class Console
 
         if x != false
             "\e[#{x}m#{s.to_s}\e[0m"
+        end
     end
     
     
