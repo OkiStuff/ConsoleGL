@@ -46,8 +46,8 @@ end
 ```
 
 # Change Log
-## Version 1.1.0
-Added Input Class
+## Version 1.1.1
+Fixed Input Class
 
 # Community
 Want to be part of the Community? Look Here!
