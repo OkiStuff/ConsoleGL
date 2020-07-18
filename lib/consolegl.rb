@@ -23,6 +23,19 @@
             #Color = COLOR ID
         #Usage:
             #LineVertical(Color.BLUE)
+require 'io/console'
+
+class Input
+    def KeyPressed(key)
+        ch = STDIN.getch
+        if ch.to_s == key
+            return true
+        else
+            return false
+        end
+    end
+end
+
 
 
 class Color
