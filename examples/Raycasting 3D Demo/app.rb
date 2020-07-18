@@ -32,18 +32,59 @@ pass_buffer = 0
 
 for ray in map
     if ray == "#"
-        
-        #while counter <= 11 do
-        Console.Draw(Console.LongSquare(0))
+    
+        while counter <= 11 do
+
+            horz = true
             
-            #if counter == 10 & x <= 10
-            #    Console.NewLine
-            #    counter = 0
-            #else
-            #    counter += 1
-            #    x+= 1
-            #end
-        #end
+            
+            if counter <= 10
+                
+                if horz
+
+                    Console.Draw(Console.LongSquare(0))
+                    Console.Draw(Console.LongSquare(0))
+                    Console.Draw(Console.LongSquare(0))
+                    Console.Draw(Console.LongSquare(0))
+                    Console.Draw(Console.LongSquare(0))
+                    Console.Draw(Console.LongSquare(0))
+                    Console.Draw(Console.LongSquare(0))
+                    Console.Draw(Console.LongSquare(0))
+                    Console.Draw(Console.LongSquare(0))
+                    Console.Draw(Console.LongSquare(0))
+                    Console.Draw(Console.LongSquare(0))
+                    Console.Draw(Console.LongSquare(0))
+                    Console.Draw(Console.LongSquare(0))
+                    Console.Draw(Console.LongSquare(0))
+                    Console.Draw(Console.LongSquare(0))
+                    Console.Draw(Console.LongSquare(0))
+                    Console.Draw(Console.LongSquare(0))
+                    Console.Draw(Console.LongSquare(0))
+                    Console.Draw(Console.LongSquare(0))
+                    Console.Draw(Console.LongSquare(0))
+                    Console.Draw(Console.LongSquare(0))
+                    Console.Draw(Console.LongSquare(0))
+                    Console.Draw(Console.LongSquare(0))
+                    Console.Draw(Console.LongSquare(0))
+                    Console.Draw(Console.LongSquare(0))
+                    Console.Draw(Console.LongSquare(0))
+                    Console.Draw(Console.LongSquare(0))
+                end
+                if x < 10
+                    Console.Draw(Console.LongSquare(0))
+                    Console.NewLine
+                    counter += 1   
+                    
+                else
+                    counter = 11
+                end
+            else
+                counter += 1
+                x+= 1
+            end
+            
+        end
+        
         
     elsif ray == "."
         # pass
